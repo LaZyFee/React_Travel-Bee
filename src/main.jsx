@@ -5,7 +5,7 @@ import { RouterProvider } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/pagination";
 import "react-datepicker/dist/react-datepicker.css";
-import { router } from "./Router/routes";
+import { router } from "./router/routes";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
